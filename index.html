@@ -20,6 +20,12 @@
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
+
+       
+        <button onclick="toggleDarkMode()" id="darkBtn">
+    🌙 Dark Mode
+</button>
+
     </nav>
      <!-- Hero Section -->
 
@@ -74,6 +80,16 @@
 
     </div>
 
+
+    <!--Add To-Do list Here-->
+<section id="todo">
+    <h2>My To-Do List</h2>
+    <input type="text" id="taskInput" placeholder="Enter a new task">
+    <button onclick="addTask()">Add Task</button>
+    <ul id="taskList"></ul>
+</section>
+
+
     <!-- Contact Section -->
 
      <section id="contact">
@@ -96,6 +112,9 @@
     <footer>
     <p>&copy; 2026 FAQ-SATROM ENTERPRISES LTD. All rights reserved.</p>
     </footer>
+
+    <!-- WhatsApp floating button -->
+    <a href="https://wa.me/2347039416582" class="whatsapp" target="_blank"></a>
 
     <script src="script.js"></script>
 </body>

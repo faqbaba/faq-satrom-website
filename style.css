@@ -51,7 +51,7 @@ nav{
 
 .hero{
     background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6));
-    url("logo.jpg");
+    url("logo.png");
     padding: 120px 20px;
     color:white;
     text-align: center;
@@ -175,4 +175,92 @@ footer {
     .card{
         width: 100%;
     }
+}
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+}
+
+.whatsapp:hover {
+    transform: scale(1.1);
+}
+
+#todo {
+    text-align: center;
+}
+#todo input {
+    width: 300px;
+    max-width: 90%;
+}
+
+#taskList {
+    list-style: none;
+    margin-top: 20px;
+}
+
+#taskList li {
+    background-color: white;
+    padding: 10px;
+    margin: 10px auto;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#tasklist button {
+    background-color:red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+margin-left: 10px;
+}
+
+.dark-mode {
+background-color: #121212;
+color: white;
+}
+
+.dark-mode section {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode p,
+.dark-mode li {
+    color: white;
+}
+
+.dark-mode .card {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.dark-mode nav,
+.dark-mode footer {
+background-color: #000;
+}
+
+.dark-mode input,
+.dark-mode textarea {
+    background-color: #333;
+    color-scheme: white;
+    border: 1px solid #555;
 }
