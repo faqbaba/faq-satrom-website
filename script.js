@@ -33,7 +33,16 @@ function toggleDarkMode() {
 
     if (document.body.classList.contains("dark-mode")) {
         btn.innerHTML = "☀️ Light Mode";
+        localStorage.setItem("theme", "dark");
     } else {
         btn.innerHTML = "🌙 Dark Mode";
+        localStorage.setItem("theme", "light");
+    }
+}
+
+window.onload = function() {
+    if (localStorage.getItem("theme") === "dark") {
+        document.body.classList.add("dark-mode");
+        document.getElementById("darkBtn").innerHTML = "☀️ Light Mode";
     }
 }
