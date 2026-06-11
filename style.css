@@ -49,15 +49,16 @@ nav{
 
 /* Hero Section */
 
+.
 .hero{
-    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6));
+    background:
+    linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
     url("logo.png");
-    padding: 120px 20px;
-    color:white;
-    text-align: center;
     background-size: cover;
     background-position: center;
-
+    padding: 120px 20px;
+    color: white;
+    text-align: center;
 }
 
 .hero h1{
@@ -220,7 +221,7 @@ footer {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-#tasklist button {
+#taskList button {
     background-color:red;
     color: white;
     border: none;
@@ -261,6 +262,53 @@ background-color: #000;
 .dark-mode input,
 .dark-mode textarea {
     background-color: #333;
-    color-scheme: white;
+    color: white;
     border: 1px solid #555;
+}
+
+body.dark-mode {
+    background-color: black !important;
+    color: white !important;
+}
+
+/* Projects Gallery */
+
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+}
+
+.project{
+    width:320px;
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.project:hover{
+    transform:translateY(-10px);
+}
+
+.project img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.project h3{
+    padding:15px 15px 5px;
+    color:#0077b6;
+}
+
+.project p{
+    padding:0 15px 15px;
+}
+
+.dark-mode .project{
+    background:#1e1e1e;
+    color:white;
 }
