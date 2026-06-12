@@ -380,3 +380,18 @@ body.dark-mode {
 .dark-mode #stats {
     background-color: #000;
 }
+
+.social-links {
+    margin-top: 15px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    color: #00b4d8;
+}
