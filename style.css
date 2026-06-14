@@ -411,3 +411,23 @@ body.dark-mode {
     margin-top: 20px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+/* Back To Top Button */
+#topBtn {
+    display: none;
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    z-index: 999;
+    border: none;
+    outline: none;
+    background-color: #0077b6;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+#topBtn:hover {
+    background-color: #023e8a;
+}
