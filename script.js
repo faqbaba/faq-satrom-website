@@ -81,3 +81,16 @@ function showSlide() {
 }
 
 setInterval(showSlide, 4000);
+// Visitor Counter
+let count = localStorage.getItem("visitorCount");
+
+if (!count) {
+    count = 0;
+}
+
+count++;
+localStorage.setItem("visitorCount", count);
+
+document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("visitorCount").textContent = count;
+});

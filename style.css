@@ -483,3 +483,10 @@ select{
     border:1px solid #ccc;
     border-radius:8px;
 }
+.visitor-counter{
+    text-align:center;
+    padding:15px;
+    background:#0d1b2a;
+    color:white;
+    font-weight:bold;
+}
