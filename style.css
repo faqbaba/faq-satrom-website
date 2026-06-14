@@ -395,3 +395,11 @@ body.dark-mode {
 .social-links a:hover {
     color: #00b4d8;
 }
+
+#profile{
+    text-align:center;
+}
+
+#profile p{
+    margin-bottom:20px;
+}
