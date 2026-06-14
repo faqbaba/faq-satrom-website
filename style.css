@@ -490,3 +490,20 @@ select{
     color:white;
     font-weight:bold;
 }
+#cta{
+    background:#0d1b2a;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.cta-btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
