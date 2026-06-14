@@ -47,9 +47,11 @@ window.onload = function() {
     }
 }
 // Back to Top Button
-let topBtn = document.getElementById("topBtn");
 
-window.onscroll = function() {
+// Back To Top
+window.onscroll = function () {
+    let topBtn = document.getElementById("topBtn");
+
     if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
         topBtn.style.display = "block";
     } else {
@@ -63,4 +65,3 @@ function topFunction() {
         behavior: "smooth"
     });
 }
-
