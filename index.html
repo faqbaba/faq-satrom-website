@@ -30,16 +30,32 @@
     </nav>
      <!-- Hero Section -->
 
-    <section class="hero" id="home">
-        <h1>Welcome to FAQ-SATROM ENTERPRISES LTD</h1>
+    
+<section class="hero-slider" id="home">
+    <div class="slide active">
+        <img src="slide1.jpg" alt="Electrical Services">
+        <div class="caption">
+            <h1>Electrical Services</h1>
+            <p>Professional Installation & Maintenance</p>
+        </div>
+    </div>
 
-        <p>Your Trusted Partner for Electrical services,
-            Real Estate, and Building Management</p>
+    <div class="slide">
+        <img src="slide2.jpg" alt="Real Estate">
+        <div class="caption">
+            <h1>Real Estate Solutions</h1>
+            <p>Property Sales & Management</p>
+        </div>
+    </div>
 
-        <button onclick="showMessage()">Learn More</button>
-        <p id="message"></p>
-    </section>
-
+    <div class="slide">
+        <img src="slide3.jpg" alt="Building Management">
+        <div class="caption">
+            <h1>Building Management</h1>
+            <p>Efficient Property Maintenance</p>
+        </div>
+    </div>
+</section>
 <!-- About Section -->
 
     <section id="about">
@@ -230,6 +246,8 @@
     <a href="https://wa.me/2347039416582" class="whatsapp" target="_blank"></a>
 
     <script src="script.js"></script>
+
    <button id="topBtn" onclick="topFunction()">⬆</button>
+   
 </body>
 </html>
