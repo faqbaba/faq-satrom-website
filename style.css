@@ -476,3 +476,10 @@ body.dark-mode {
 .caption p{
     font-size:1.2rem;
 }
+select{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}

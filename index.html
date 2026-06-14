@@ -21,6 +21,7 @@
     <li><a href="#projects">Projects</a></li>
     <li><a href="#location">Location</a></li>
     <li><a href="#contact">Contact</a></li>
+    <li><a href="#request">Request Service</a></li>
 </ul>
        
         <button onclick="toggleDarkMode()" id="darkBtn">
@@ -205,6 +206,27 @@
         allowfullscreen=""
         loading="lazy">
     </iframe>
+</section>
+
+<section id="request">
+    <h2>Request a Service</h2>
+
+    <form action="https://formspree.io/f/mdavwypw" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+
+        <input type="tel" name="phone" placeholder="Phone Number" required>
+
+        <select name="service">
+            <option>Electrical Installation</option>
+            <option>Electrical Maintenance</option>
+            <option>Real Estate</option>
+            <option>Building Management</option>
+        </select>
+
+        <textarea name="message" placeholder="Describe your request"></textarea>
+
+        <button type="submit">Request Service</button>
+    </form>
 </section>
 
     <!-- Contact Section -->
